@@ -1,0 +1,157 @@
+/*
+Theme Name: Nicolas Klam
+Theme URI: http://nicolasklam.com
+Description: A custom theme for Nicolas Klam
+Version: 1.0
+Author: Alex Kale
+Author URI: http://awkale.me
+Tags: developer
+
+Template: pagelines
+
+*/
+
+/*
+Themes follow the basic WordPress themes header scheme with the following additions:
+
+	Template: pagelines
+	Tells wordpress this is a childtheme and where the parent files are stored.
+
+	Demo: http://a.link.com
+	Use this to point to a demo for this product.
+
+	External: http://a.link.com
+	Use this to point to an external site, authors home page for example.
+*/
+
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *	style.css 		 - Main theme style file.
+ *  thumb.png		 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png	 - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *	screenshot-1.png - Additional screenshots -1 -2 -3 etc (optional).
+ *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
+ *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */
+
+body {
+	font-family: "freight-big-pro";
+	font-weight: 300;
+	font-size: 10px;
+}
+a.site-title {
+	font-size: 3em;
+	line-height: .75em;
+}
+.thead, h1, h2, h3, h4, h5, h6, .site-title {
+	font-family: "futura-pt";
+	font-weight: 300;
+}
+.site-description, .metabar, .pin-meta, .pin-excerpt {
+	display: none;
+}
+h1, .fpost .entry-title {
+	font-size: 24px;
+	font-family: "freight-big-pro";
+	font-weight: 300;
+	text-align: center;
+}
+.main_nav {
+	font-size: 100%;
+}
+.font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small {
+	font-family: "freight-big-pro";
+	font-weight: 300;
+	font-size: 1.6em;
+}
+.main-nav li a:hover:hover, .main-nav li.current_page_item > a:hover, .main-nav li.current-page-ancestor > a:hover {
+	font-family: "futura-pt";
+	background-color: #ffffff;
+}
+.main-nav .current-menu-ancestor a, .main-nav li.current-menu-ancestor ul a, .main-nav li.current_page_item a, .main-nav li.current-menu-item a, .main-nav li.current_page_parent a, .sf-menu li li, .sf-menu li li li {
+	background: #ffffff;
+}
+.main-nav.sf-menu li li a {
+	background: #ffffff;
+}
+.section-brandnav .content-pad {
+	padding-bottom: 0;
+}
+.post-meta {
+	margin-bottom: 0;
+}
+.hentry .hentry-pad {
+	padding-bottom: 0;
+}
+.postpin {
+	background: none;
+}
+.postpin, .fetchlink a {
+	box-shadow: none;
+}
+.pin-img-wrap {
+	padding: 0;
+}
+h4.pin-title {
+	font-family: "freight-big-pro";
+	word-break: keep-all;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+/*
+.postpin .postpin-pad {
+    height: 83%;
+    width: 87%;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    background: rgba(115,115,115,0.62);
+    display: none;
+}
+.postpin .postpin-pad:hover {
+	display: block;
+}
+*/
+
+.post-nav, .current_posts_info {
+	background-color: #ffffff;
+}
+.post-nav a:hover, .current_posts_info a:hover {
+	font-family: "futura-pt";
+	font-size: .94em;
+}
+
+.postpin-pad {
+	box-sizing: border-box;
+	position: absolute;
+	top: 9px;
+	width: 99%;
+	height: 92%;
+	background-color: rgba(100,100,100,0);
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	transition: background-color .5s;
+}
+.postpin-pad:hover {
+	background-color: rgba(100,100,100,0.51);
+}
+h4.pin-title {
+	opacity: 0;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	transition: opacity .5s;
+}
+.postpin-pad:hover h4.pin-title {
+	opacity: 1;
+}
+h4.pin-title {
+	height: 100%;
+	width: 100%
+}
+h4.pin-title a {
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	display: block;
+}

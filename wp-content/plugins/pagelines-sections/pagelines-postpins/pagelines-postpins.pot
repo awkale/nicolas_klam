@@ -1,0 +1,139 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/pagelines-postpins\n"
+"POT-Creation-Date: 2013-03-30 11:37:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: section.php:77
+msgid "Loading..."
+msgstr ""
+
+#: section.php:95 section.php:194
+msgid "Load More Posts"
+msgstr ""
+
+#: section.php:207
+msgid "Add Comment"
+msgstr ""
+
+#: section.php:210
+msgid "Comments"
+msgstr ""
+
+#: section.php:250
+msgid "Pin Width in Pixels"
+msgstr ""
+
+#: section.php:251
+msgid "Pin Width"
+msgstr ""
+
+#: section.php:252
+msgid "The width of post pins in pixels. Default is <strong>237px</strong>."
+msgstr ""
+
+#: section.php:258
+msgid "Select attachment image source"
+msgstr ""
+
+#: section.php:259
+msgid "Attachment source"
+msgstr ""
+
+#: section.php:260
+msgid "Select image type: thumbnail, medium, large etc."
+msgstr ""
+
+#: section.php:265
+msgid "Pin Gutter Width in Pixels"
+msgstr ""
+
+#: section.php:266
+msgid "Pin Gutter Width"
+msgstr ""
+
+#: section.php:267
+msgid ""
+"The width of the spacing between post pins in pixels. Default is "
+"<strong>15px</strong>."
+msgstr ""
+
+#: section.php:272
+msgid "Number of Pins To Load"
+msgstr ""
+
+#: section.php:273
+msgid "Number of Pins to Load"
+msgstr ""
+
+#: section.php:274
+msgid ""
+"The number of posts to pull at a time in the section. Default is <strong>15 "
+"posts</strong>."
+msgstr ""
+
+#: section.php:275
+msgid ""
+"Control the amount of posts that are pulled for use in the Pins section at a "
+"time."
+msgstr ""
+
+#: section.php:281
+msgid "Use Infinite Scrolling"
+msgstr ""
+
+#: section.php:282
+msgid "Use Load Posts Link (AJAX)"
+msgstr ""
+
+#: section.php:284
+msgid "Pin Loading Method"
+msgstr ""
+
+#: section.php:285
+msgid "Post Pin Loading"
+msgstr ""
+
+#: section.php:286
+msgid ""
+"Select the mode for loading new pins on the page. Default is to use "
+"<strong>Load Posts Link</strong>."
+msgstr ""
+
+#: section.php:287
+msgid ""
+"Use infinite scroll loading to automatically load new pins when users get to "
+"the bottom of the page. Alternatively, you can use a link that users can "
+"click to 'load new pins' into the page."
+msgstr ""
+
+#: section.php:293
+msgid "Pin Post Category"
+msgstr ""
+
+#: section.php:294
+msgid "Pins Category/Posts Mode"
+msgstr ""
+
+#: section.php:295
+msgid ""
+"Select a post category to use with post pins, leave default for all posts."
+msgstr ""
+
+#: section.php:296
+msgid ""
+"You can select to use only posts from a specific category, leave blank to "
+"use all posts. Default is to show all posts."
+msgstr ""
+
+#: section.php:302
+msgid "PostPins"
+msgstr ""
