@@ -134,7 +134,13 @@ h4.pin-title {
 	transition: background-color .5s;
 }
 .postpin-pad:hover {
-	background-color: rgba(100,100,100,0.51);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 25%, rgba(0,0,0,0.8) 90%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,rgba(0,0,0,0)), color-stop(90%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 90%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 90%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 90%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 90%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
 }
 h4.pin-title {
 	opacity: 0;
@@ -146,8 +152,10 @@ h4.pin-title {
 	opacity: 1;
 }
 h4.pin-title {
-	height: 100%;
-	width: 100%
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: auto;
 }
 h4.pin-title a {
 	color: #ffffff;
