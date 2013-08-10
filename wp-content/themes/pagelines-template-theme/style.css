@@ -130,7 +130,7 @@ h4.pin-title {
 	position: absolute;
 	top: 9px;
 	width: 99%;
-	height: 92%;
+	height: 95%;
 	background-color: rgba(100,100,100,0);
 	-webkit-transition: background-color .5s;
 	-moz-transition: background-color .5s;
@@ -155,7 +155,7 @@ h4.pin-title {
 	opacity: 1;
 }
 h4.pin-title {
-	width: 100%;
+	width: 90%;
 	position: absolute;
 	bottom: 0;
 	height: auto;
@@ -165,4 +165,11 @@ h4.pin-title a {
 	height: 100%;
 	width: 100%;
 	display: block;
+}
+h4.pin-title a:hover {
+	font-family: "futura-pt";
+}
+.page-id-16 h2 {
+	font-family: "freight-big-pro";
+	margin-bottom: .5em;
 }
