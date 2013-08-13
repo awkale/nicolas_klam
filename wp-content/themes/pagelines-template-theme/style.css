@@ -136,7 +136,7 @@ h4.pin-title {
 	-moz-transition: background-color .5s;
 	transition: background-color .5s;
 }
-.postpin-pad:hover {
+.postpin-pad:hover, .mobilehover {
 background: -moz-linear-gradient(top,  rgba(0,0,0,0) 25%, rgba(0,0,0,0.8) 90%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,rgba(0,0,0,0)), color-stop(90%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 90%); /* Chrome10+,Safari5.1+ */
