@@ -173,3 +173,37 @@ h4.pin-title a:hover {
 	font-family: "freight-big-pro";
 	margin-bottom: .5em;
 }
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.section-brandnav .mainlogo-link, .section-brandnav .title-container {
+		margin-left: 10px;
+	}
+	.responsive #page .main_nav .main-nav, .responsive #page #brandnav .brandnav-nav {
+		margin-left: 0;
+	}
+	.responsive #page .main_nav ul li {
+		clear: both;
+	}
+	ul.sf-menu li a {
+		margin-left: 0;
+	}
+	ul.sf-menu ul li {
+		width: 100%;
+	}
+}
